@@ -1,0 +1,35 @@
+body {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	background: #ffffff;
+}
+
+.title-logo {
+	margin-top: 10px;
+}
+
+.text-logo {
+	margin-top: 50px;
+}
+
+.title-main {
+	font-size: 60px;
+}
+
+.title-minor {
+	font-size: 40px;
+}
+
+.site_bottom {
+	margin: 15px;
+}
+.modal-image-margin {
+  margin-bottom:10px;
+}
+
+.font-thin {
+	font-weight: 100;
+}
+
+.font-grey {
+	color: #BCBBBB;
+}

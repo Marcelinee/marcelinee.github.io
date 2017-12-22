@@ -38,6 +38,11 @@ body {
 	width: 1200px;
 	height: 190px;
 	background-image: url("../images/sand.jpg");
+	transition: background-image  .3s  ease-in;
+	-moz-transition: background-image .3s  ease-in;
+	-ms-transition:    background-image .3s  ease-in;
+	-o-transition:     background-image .3s  ease-in;
+	-webkit-transition: background-image .3s  ease-in;
 }
 
 .modalimg {

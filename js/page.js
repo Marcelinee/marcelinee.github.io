@@ -1,7 +1,6 @@
     function hoverImg(id) {
         elem = document.getElementById(id);
         sand = document.getElementById("sand");
-
         sand.style.transition = "background-image  .3s  ease-in";
         sand.style.backgroundImage = "url('images/" + id + "site.jpg')";
     }

@@ -1,3 +1,17 @@
+
+
+@media only screen and (max-width: 992px) {
+	.featured {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 993px) {
+	.center {
+		text-align: center;
+	}
+}
+
 body {
 	font-family: 'Saira Semi Condensed', sans-serif;
 	background: #ffffff;
@@ -19,9 +33,6 @@ body {
 	font-size: 40px;
 }
 
-.site_bottom {
-	margin: 15px;
-}
 .modal-image-margin {
   margin-bottom:10px;
 }
@@ -37,19 +48,71 @@ body {
 .img-site {
 	width: 1200px;
 	height: 190px;
-	background-image: url("../images/sand.jpg");
-	transition: background-image  .3s  ease-in-out;
-	-moz-transition: background-image .3s  ease-in-out;
-	-ms-transition:    background-image .3s  ease-in-out;
-	-o-transition:     background-image .3s  ease-in-out;
-	-webkit-transition: background-image .3s  ease-in-out;
+
+	transition: opacity .3s  ease-in-out;
+	-moz-transition: opacity .3s  ease-in-out;
+	-ms-transition:    opacity .3s  ease-in-out;
+	-o-transition:     opacity .3s  ease-in-out;
+	-webkit-transition: opacity .3s  ease-in-out;
 }
 
 .modalimg {
 	cursor: pointer;
 }
 
+.images {
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
 
+.sand {
+	background: url("../images/sand.jpg") ;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 0;	
+	padding-top: 17%;
+	opacity: 1;
+	position: relative;
+	top: 0;
+	left: 0;
+	
+}
+.cookie {
+	background: url("../images/cookiesite.jpg") ;
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 17%;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+}
+.tree {
+	background: url("../images/treesite.jpg");
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 17%;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
 
+}
+.todo {
+	background: url("../images/todosite.jpg");
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 17%;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+}
 
 

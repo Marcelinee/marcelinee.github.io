@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
@@ -11,44 +12,50 @@
 	<title>Marcelina Mrógała</title>
 </head>
 <body>
+
 <div class= "container">
+	
 	<div class= "row">
-		<div class="col-md-6 title-logo">
+		<div class="col-md-6 title-logo center">
 			<img src="images/butterfly.jpg" class="img-circle">
 		</div>
-		<div class="col-md-6 text-right text-uppercase text-logo">			
+
+		<div class="col-md-6 text-right text-uppercase text-logo center">			
 				<h1 class="title-main font-thin">Marcelina</h1>
 				<h3 class="title-minor">Mrógała</h3>
 		</div>
 	</div>
-	<div class="row"><hr/></div>
-	<div class="row"></div>
-	<div class= "row">
-		<div class="col-md-12">
-			<div id="sand" class="img-responsive img-site"></div>
-		</div>
 
+	<div class="row"><hr/></div>
+	
+	<div class= "row">
+		<div class="col-md-12 images">
+				<div id="sandImg" class="img-site sand"></div>
+				<div id="treeImg" class="img-site tree"></div>
+				<div id="cookieImg" class="img-site cookie"></div>
+				<div id="todoImg" class="img-site todo"></div>
+		</div>
 	</div>	
 	
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 featured">
 			<h2 class="font-grey">Featured work</h2>
 		</div>
 	</div>
 	
-	<div class= "row text-center site_bottom">
-		<div class="col-md-4">
-			<img id="tree" onmouseover="hoverImg('tree')" onmouseout="hoverOutImg()" class="modalimg" src="images/tree.jpg" data-toggle="modal" data-target="#modal1">
+	<div class= "row text-center site_bottom images">
+		<div class="col-md-4 featured">
+			<img id="tree" onmouseover="hoverImg('tree')" onmouseout="hoverOutImg('tree')" class="modalimg" src="images/tree.jpg" data-toggle="modal" data-target="#modal1">
 			<h3>Trees</h3>		
 			<a href="https://marcelinee.github.io/TreeGame/"><h4>Trees Puzzle Game</h4></a>
 		</div>
-		<div class="col-md-4">
-			<img id="cookie" onmouseover="hoverImg('cookie')" onmouseout="hoverOutImg()" class="modalimg" src="images/cookie.png" data-toggle="modal" data-target="#modal2">
+		<div class="col-md-4 featured">
+			<img id="cookie" onmouseover="hoverImg('cookie')" onmouseout="hoverOutImg('cookie')" class="modalimg" src="images/cookie.png" data-toggle="modal" data-target="#modal2">
 			<h3>Cookies</h3>
 			<a href="https://marcelinee.github.io/Cookies/public/index.html"><h4>CookieClicker Game</h4></a>
 		</div>
-		<div class="col-md-4">
-			<img id="todo" onmouseover="hoverImg('todo')" onmouseout="hoverOutImg()" class="modalimg" src="images/todo.png" data-toggle="modal" data-target="#modal3">
+		<div class="col-md-4 featured">
+			<img id="todo" onmouseover="hoverImg('todo')" onmouseout="hoverOutImg('todo')" class="modalimg" src="images/todo.png" data-toggle="modal" data-target="#modal3">
 			<h3>ToDo List</h3>
 			<a href="https://marcelinee.github.io/Simple-to-do-list/public/index.html"><h4>ToDo List App</h4></a>
 		</div>

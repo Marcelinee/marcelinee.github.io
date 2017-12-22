@@ -1,10 +1,14 @@
-    function hoverImg(id) {
-        elem = document.getElementById(id);
-        sand = document.getElementById("sand");
-        sand.style.backgroundImage = "url('images/" + id + "site.jpg')";
+    function hoverImg(id) { 
+        sand = document.getElementById("sandImg");
+        sand.style.opacity = "0";
+        elem = document.getElementById(id + "Img");
+        elem.style.opacity = "1";
+
     }
 
-    function hoverOutImg() {
-        sand = document.getElementById("sand");
-        sand.style.backgroundImage = "url('images/sand.jpg')"; 
+    function hoverOutImg(id) {
+        elem = document.getElementById(id + "Img");
+        elem.style.opacity = "0";
+        sand = document.getElementById("sandImg");
+        sand.style.opacity = "1";
     }

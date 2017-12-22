@@ -33,3 +33,19 @@ body {
 .font-grey {
 	color: #BCBBBB;
 }
+
+.img-site {
+	width: 1200px;
+	height: 190px;
+	background-image: url("../images/sand.jpg");
+	transition: "-webkit-transition: none !important";
+}
+
+.modalimg {
+	cursor: pointer;
+}
+
+
+
+
+

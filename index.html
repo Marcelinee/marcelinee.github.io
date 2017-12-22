@@ -5,9 +5,10 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/page.js"></script>
 	<link href="css/style.css" rel="stylesheet">
-	<title>Yaay</title>
+	<title>Marcelina Mrógała</title>
 </head>
 <body>
 <div class= "container">
@@ -24,7 +25,7 @@
 	<div class="row"></div>
 	<div class= "row">
 		<div class="col-md-12">
-			<img src="images/sand.jpg" class="img-responsive">
+			<div id="sand" class="img-responsive img-site"></div>
 		</div>
 
 	</div>	
@@ -37,17 +38,17 @@
 	
 	<div class= "row text-center site_bottom">
 		<div class="col-md-4">
-			<img src="images/tree.jpg" data-toggle="modal" data-target="#modal1">
+			<img id="tree" onmouseover="hoverImg('tree')" onmouseout="hoverOutImg()" class="modalimg" src="images/tree.jpg" data-toggle="modal" data-target="#modal1">
 			<h3>Trees</h3>		
 			<a href="https://marcelinee.github.io/TreeGame/"><h4>Trees Puzzle Game</h4></a>
 		</div>
 		<div class="col-md-4">
-			<img src="images/cookie.png" data-toggle="modal" data-target="#modal2">
+			<img id="cookie" onmouseover="hoverImg('cookie')" onmouseout="hoverOutImg()" class="modalimg" src="images/cookie.png" data-toggle="modal" data-target="#modal2">
 			<h3>Cookies</h3>
 			<a href="https://marcelinee.github.io/Cookies/public/index.html"><h4>CookieClicker Game</h4></a>
 		</div>
 		<div class="col-md-4">
-			<img src="images/todo.png" data-toggle="modal" data-target="#modal3">
+			<img id="todo" onmouseover="hoverImg('todo')" onmouseout="hoverOutImg()" class="modalimg" src="images/todo.png" data-toggle="modal" data-target="#modal3">
 			<h3>ToDo List</h3>
 			<a href="https://marcelinee.github.io/Simple-to-do-list/public/index.html"><h4>ToDo List App</h4></a>
 		</div>
